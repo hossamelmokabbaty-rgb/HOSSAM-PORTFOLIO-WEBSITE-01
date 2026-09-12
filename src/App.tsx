@@ -233,7 +233,7 @@ export default function App() {
   const [adminModalOpen, setAdminModalOpen] = useState(false);
   const [adminPinInput, setAdminPinInput] = useState('');
   const [adminPinError, setAdminPinError] = useState(false);
-  const ADMIN_PASSCODE = "1234";
+  const ADMIN_PASSCODE = "0000";
 
   // Contact Form State
   const [formSubmitted, setFormSubmitted] = useState(false);
