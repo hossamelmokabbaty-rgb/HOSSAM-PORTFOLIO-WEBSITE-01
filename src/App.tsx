@@ -1569,11 +1569,11 @@ export default function App() {
                   required
                   value={adminPinInput}
                   onChange={(e) => setAdminPinInput(e.target.value)}
-                  placeholder="Enter passcode (Default: 1234)"
+                  placeholder="Enter passcode (Default: 0000)"
                   className={`w-full px-4 py-3 rounded-xl border text-sm outline-none focus:ring-2 focus:ring-amber-500 ${darkMode ? 'bg-slate-950 border-slate-800' : 'bg-slate-50 border-slate-200'}`}
                 />
                 {adminPinError && (
-                  <p className="text-xs text-rose-500 mt-1">Incorrect passcode. Default is 1234.</p>
+                  <p className="text-xs text-rose-500 mt-1">Incorrect passcode. Default is 0000.</p>
                 )}
               </div>
 
